@@ -1,8 +1,20 @@
 body{
     margin: 0;
-    padding: 0;
     background: #ccc;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.nav_links {
+    display: inline-block;
+}
+.header {
+    background: #55d6aa;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
 }
 
 .nav_links ul {
