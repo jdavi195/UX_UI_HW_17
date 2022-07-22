@@ -1,32 +1,32 @@
-body{
+body {
     margin: 0;
     background: #ccc;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url;
+    background-size: cover;
+    background-position: center;
+  }
 
-.nav a {
+.nav {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: medium;
 }
 
-.nav_links li {
+.nav_links {
         display:inline-block;
         padding: 10px 20px;
 }
 
 .header {
     background: #1cb6e6;
-}
-
-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,26 +36,4 @@ header {
 .logo {
     float: left;
     padding: 10px 0;  
-}
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #24252A;
-}
-
-li, a, button {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: #ffffff
-}
-
-
-.nav_links ul {
-    list-style: none;
-    background: #bd1e43;
-    padding: 0;
-    margin: 0;
 }
