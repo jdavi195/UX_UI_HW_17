@@ -1,33 +1,35 @@
-body {
+.body{
     margin: 0;
     background: #ccc;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
 }
 
-.hero {
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url;
-    background-size: cover;
-    background-position: center;
-  }
-
-.nav {
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: medium;
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
-.nav_links {
-        display:inline-block;
-        padding: 10px 20px;
+.nav_links li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 18px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;    
+}
+
+.nav_links li a:hover {
+    color: rgb(197, 161, 2);
+    transition: .3s;
 }
 
 .header {
-    background: #1cb6e6;
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
@@ -37,3 +39,97 @@ body {
     float: left;
     padding: 10px 0;  
 }
+
+*{
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0;
+    background-color: #24252A;
+}
+
+.nav_links ul {
+    list-style: none;
+    background: #bd1e43;
+    padding: 0;
+    margin: 0;
+}
+
+.heroimg {
+    background-image: linear-gradient (rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/myphoto.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.p {
+    text-align: right;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+.logo {
+    margin-left: 8px;
+    padding-right: 20%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items:flex-start;
+}
+
+.content {
+    color: #ffffff;
+    justify-content: space-around;
+    background-image: url(../images/myphoto.png);
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.inner-container {
+    
+}
+
+.click {
+    padding: 8px;
+    border: none;
+    background: #3C1A5B;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.click {border-radius: 4px;
+}
+
+.click:hover {
+    padding: 8px;
+    border: none;
+    background: #7B38B8;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    transform: scale(95%);
+    transition: .5s;
+}
+
+.footer_links {
+    display: inline-block;
+
+    margin: 8px;
+    padding: 8px;
+    list-style: none;
+}
+
+.myimage{
+    margin: 0;
+    height: 100%;
+}
+
