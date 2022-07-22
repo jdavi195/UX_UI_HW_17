@@ -1,4 +1,5 @@
 .body{
+    width: 100%;
     margin: 0;
     background: #ccc;
     font-family: Arial, Helvetica, sans-serif;
@@ -15,12 +16,18 @@
         display: inline-block;
         padding: 18px 20px;
         font-family: Arial, Helvetica, sans-serif;
+        vertical-align: top;
+}
+
+.heroimg {
+    height: 600px;
+    padding: 25px;
 }
 
 .nav_links li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;    
+    font-weight: bold;  
 }
 
 .nav_links li a:hover {
@@ -37,14 +44,11 @@
 
 .logo {
     float: left;
-    padding: 10px 0;  
+    padding: 8px 25px;  
 }
 
 *{
-    box-sizing:border-box;
-    margin: 0px;
-    padding: 0;
-    background-color: #24252A;
+    background-color:black;
 }
 
 .nav_links ul {
@@ -80,10 +84,66 @@
     align-items:flex-start;
 }
 
+.container {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #ffffff;
+}
+  
+.title {
+    font-size: large;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 8px;
+    padding-top: 8px;
+    background-color: transparent;
+  }
+  
+.name {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+  
+.bio {
+    font-style: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+  
+.click {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+}
+  
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .content {
     color: #ffffff;
     justify-content: space-around;
-    background-image: url(../images/myphoto.png);
     height: 70%;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,18 +151,15 @@
     position: relative;
 }
 
-.inner-container {
-    
-}
-
 .click {
     padding: 8px;
     border: none;
-    background: #3C1A5B;
+    background: #ffffff;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 16px;
-    color: #ffffff;
+    color: #7B38B8;
+    transform: translate(-50%, -50%);
 }
 
 .click {border-radius: 4px;
@@ -111,20 +168,22 @@
 .click:hover {
     padding: 8px;
     border: none;
-    background: #7B38B8;
+    background: #3C1A5B;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 16px;
     color: #ffffff;
     transform: scale(95%);
     transition: .5s;
+    transform: translate(-50%, -50%);
 }
 
 .footer_links {
-    display: inline-block;
-
-    margin: 8px;
-    padding: 8px;
+    padding: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
     list-style: none;
 }
 
