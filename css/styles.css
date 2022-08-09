@@ -109,7 +109,7 @@ div.container_navbar {
 }
 
 section.heroimg {
-    display: contents;
+
 }
 
 .container {
@@ -171,6 +171,7 @@ section.heroimg {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .content {
     color: #ffffff;
     justify-content: space-around;
@@ -179,6 +180,10 @@ section.heroimg {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.discriptions {
+    text-align: center;
 }
 
 .click {
